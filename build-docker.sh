@@ -1,1 +1,1 @@
-docker build -t matthayward1997/camelot .
+docker build -t gennyproject/camelot .
