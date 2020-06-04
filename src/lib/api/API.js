@@ -13,7 +13,7 @@ class API {
     this.app = express();
 
     /* Use JSON body parsing */
-    this.app.use( bodyParser.json({}));
+    this.app.use( bodyParser.json({limit: '100mb', extended: tru}));
 
     /* Add cors support */
     this.app.use( cors());
